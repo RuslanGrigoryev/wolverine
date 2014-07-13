@@ -54,7 +54,15 @@ html, body {
 	min-height: 100%;
 }
 body {
+	background: #000;
 	line-height: 1;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+.wrap {
+	min-height: 1400px;
+	background: url(../../i/markup/bg.png) no-repeat;
+	background-size: 100% 100%;
 }
 ol, ul {
 	list-style: none;
@@ -70,4 +78,57 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+/*main styles*/
+.wrapper {
+	width: 1280px;
+	margin: 0 auto;
+	padding: 0 160px;
+}
+header {
+	height: 680px;
+	position: relative;
+}
+
+.features {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 999;
+	width: 366px;
+	height: 366px;
+	&__header {
+		height: 47px;
+		background: url(../../i/markup/bg-features-header.png) no-repeat;
+	}
+	&__list {
+		&__item {
+			border-bottom: 1px solid #222;	
+			display: block;
+			position: relative;
+			color: #fff;
+			font-size: 18px;
+			font-weight: bold;
+			margin: 5px 0;
+			padding: 10px 0 10px 40px;
+			background: url(../../i/markup/list-style.png) 20px 15px no-repeat;
+		}
+	}
+	&__link {
+		position: relative;
+		display: block;
+		margin: 0 auto;
+		width: 286px;
+		height: 102px;
+		background: url(../../i/markup/features-link.png) no-repeat;
+		&__text {
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			top: 0;
+			z-index: 1000;
+			background: url(../../i/markup/features-link-text.png) no-repeat;
+		}
+	}
 }
