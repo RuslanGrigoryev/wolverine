@@ -211,7 +211,10 @@ jQuery.extend( jQuery.easing,
 $(function () {
 	var $link     = $('.main__link'),
 		$imgBig   = $('.wrap-img').find('img'),
-		$navLink  = $('.navi__item__link');
+		$navLink  = $('.navi__item__link'),
+		$popupImg = $('.popup__list__item__link');
+
+		/*main page switcher*/
 
 	    $link.on('click', function (e) {
 	    	e.preventDefault();
@@ -258,5 +261,15 @@ $(function () {
 
 	    		 });
 	    	}
+	    });
+
+	    /*Popup image switcher*/
+
+	    $popupImg.on('click', function(e) {
+	    	e.preventDefault();
+
+	    	var $self = $(this);
+	    	$('.popup__list__item__link').parent().find('.popup__list__item--active').remove();
+	    	$('<a href="#" class="popup__list__item--active"></a>').insertBefore($self);
 	    });
 });

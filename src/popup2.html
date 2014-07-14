@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/build/style.css">
+</head>
+<body>
+
+	<div class="wrap wrapper">
+		
+		<header>
+			
+			<div class="features">
+				<div class="features__header"></div>
+				<ul class="features__list">
+					<li class="features__list__item">Динамический сюжет</li>
+					<li class="features__list__item">Боевая ярость</li>
+					<li class="features__list__item">Мастерством ближнего боя</li>
+					<li class="features__list__item">Быстрая регенерация</li>
+				</ul>
+				<a href="#" class="features__link">
+					<span class="features__link__text"></span>
+				</a>
+			</div>
+
+		</header>
+
+		<section class="preview">
+
+			<div class="preview__block preview__block--subj">
+
+				<a href="#" class="section__link">Сюжет >></a>
+				<p>
+					Сюжет игры повторяет сюжет 
+					одноимённого фильма, хотя события 
+					представлены не в хронологическом 
+					порядке, и присутствует 
+					дополнительная сюжетная линия 
+					про роботов-стражей. Кроме того, 
+					в игре против Росомахи выступают 
+					противники, отсутствующие в фильме. 
+					Повествования идёт по двум 
+					сюжетным линиям: поиск адамантия 
+					в Африке и события три года спустя.
+				</p>
+				
+			</div>
+
+			<div class="preview__block preview__block--screens">
+				
+				<a href="#" class="section__link">Скриншоты >></a>
+				
+				<ul class="screenshots clearfix">
+					<li class="screenshots__item">
+						<a href="#">
+							<img src="i/img-01.jpg" alt="screensots__image" class="screenshots__item__img">
+						</a>
+					</li>
+					<li class="screenshots__item">
+						<a href="#">
+							<img src="i/img-02.jpg" alt="screensots__image" class="screenshots__item__img">
+						</a>
+					</li>
+					<li class="screenshots__item">
+						<a href="#">
+							<img src="i/img-03.jpg" alt="screensots__image" class="screenshots__item__img">
+						</a>
+					</li>
+					<li class="screenshots__item">
+						<a href="#">
+							<img src="i/img-04.jpg" alt="screensots__image" class="screenshots__item__img">
+						</a>
+					</li>
+					<li class="screenshots__item">
+						<a href="#">
+							<img src="i/img-05.jpg" alt="screensots__image" class="screenshots__item__img">
+						</a>
+					</li>
+					<li class="screenshots__item">
+						<a href="#">
+							<img src="i/img-06.jpg" alt="screensots__image" class="screenshots__item__img">
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+
+		</section>
+
+		<section class="main clearfix">
+			
+			<div class="col">
+				
+				<div class="main__descr">
+					<h1>Росомаха (Логан)</h1>
+					<p>
+						Росомаха — мутант, имеющий сверхчеловеческие способности. 
+						Он обладает регенерацией, которая позволяет ему выживать после 
+						тяжёлых ранений, смертельных для обычного человека. 
+						Большинство ядов и болезней также не могут убить и нанести 
+						тяжёлый вред здоровью Росомахи. 
+					</p>
+				</div>
+				<div class="wrap-links clearfix">
+					<a href="#" class="main__link" data-image="1">
+						<img src="i/img-prev-01.jpg" width="160" height="116" alt="descrImage" class="main__link__image">
+					</a>
+					<a href="#" class="main__link" data-image="2">
+						<img src="i/img-prev-02.jpg" width="160" height="116" alt="descrImage" class="main__link__image">
+					</a>
+					<a href="#" class="main__link" data-image="3">
+						<img src="i/img-prev-03.jpg" width="160" height="116" alt="descrImage" class="main__link__image">
+					</a>
+				</div>
+				
+			</div>
+
+			<div class="wrap-img">
+				
+				<img src="i/img-07.jpg" alt="big-img" class="wrap-img--active" data-image="3">	
+				<img src="i/img-08.jpg" alt="big-img" data-image="2">
+				<img src="i/img-09.jpg" alt="big-img" data-image="1">
+				
+				<ul class="navi">
+					<li class="navi__item">
+						<a href="#" data-image="1" class="navi__item__link"></a>
+					</li>
+					<li class="navi__item">
+						<a href="#" data-image="2" class="navi__item__link"></a>
+					</li>
+					<li class="navi__item">
+						<a href="#" data-image="3" class="navi__item__link navi__item__link--active"></a>
+					</li>
+				</ul>
+			</div>
+
+		</section>
+
+		<footer>
+			
+			<p>The Wolverine <a href="#">X-Men Origins</a></p>
+
+		</footer>
+
+	</div>
+
+	<div class="popup">
+		<div class="popup__window popup__window--access">
+			<a href="#" class="section__link popup__section__link">Получение доступа >></a>
+			
+			<form action="#" class="phone-form">
+				<label for="phoneNum">Введите Ваш номер мобильного телефона:</label>
+
+				<input type="text" id="phoneNum" placeholder="+380 96 458 79 32" class="phone-num">
+				<p class="input-hint">Пример: +380 (96) 4587932</p>
+				
+				<div class="wrap-block">
+					
+					<label for="captcha" class="captcha-label">Защита от анти-ботов</label>
+					<img src="i/captcha.png" alt="captcha">
+					<input type="text" id="captcha" class="captcha">
+					
+				</div>
+			</form>
+			
+			<a href="#" class="popup__btn">Далее</a>
+		</div>
+	</div>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
