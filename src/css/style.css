@@ -80,6 +80,7 @@ body {
   line-height: 1;
   font-family: Arial, sans-serif;
   font-size: 16px;
+  position: relative;
 }
 
 .wrap {
@@ -324,7 +325,7 @@ footer a {
 .popup__section__link {
   left: 3px;
   top: -6px;
-  font-size: 27px;
+  font-size: 24px;
 }
 .popup__list {
   padding: 20px 0 0 10px;
@@ -349,11 +350,12 @@ footer a {
 
 .popup form {
   height: 20px;
-  margin-top: 100px;
+  margin-top: 47px;
   display: block;
   text-align: center;
   color: #fff;
-  font-size: 14px;
+  font-size: 13px;
+  padding: 0 40px;
 }
 
 .popup form input, .popup form label {
@@ -408,4 +410,8 @@ footer a {
 
 .popup__window__text--bottom {
   margin-top: 30px;
+}
+.popup__window--giving {
+    padding-top: 82px;
+  
 }
